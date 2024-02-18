@@ -1,0 +1,800 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.plan__h1 {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plan__text {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #95a1bb;
+}
+
+.section__money {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.free {
+  margin-left: 20px;
+  margin-top: 40px;
+  width: 220px;
+  height: 347px;
+  border: 1px solid #cfd1d6;
+  border-radius: 5px;
+}
+
+.free__title {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.free__sup-sub {
+  padding-top: 35px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.free__forever {
+  padding-top: 25px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.free__users {
+  padding-top: 20px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.free__gitgub {
+  padding-top: 20px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.free__start {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 160px;
+  height: 36px;
+  border: 1px solid #6e38f7;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+.free__get {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #6e38f7;
+}
+
+/* LITE */
+
+.lite {
+  margin-left: 20px;
+  margin-top: 40px;
+  width: 220px;
+  height: 347px;
+  border: 1px solid #cfd1d6;
+  border-radius: 5px;
+}
+
+.lite__title {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.lite__sup-sub {
+  padding-top: 35px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.lite__forever {
+  padding-top: 25px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.lite__users {
+  padding-top: 20px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.lite__gitgub {
+  padding-top: 20px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.buy__now {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 160px;
+  height: 36px;
+  border: 1px solid #6e38f7;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #6e38f7;
+  color: #fff;
+}
+
+.lite__by {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+/* PRO */
+
+.pro {
+  margin-left: 20px;
+  margin-top: 40px;
+  width: 220px;
+  height: 347px;
+  border: 1px solid #cfd1d6;
+  border-radius: 5px;
+}
+
+.pro__title {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.pro__sup-sub {
+  padding-top: 35px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.pro__forever {
+  padding-top: 25px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.pro__users {
+  padding-top: 20px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.pro__gitgub {
+  padding-top: 20px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.pro__start {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 160px;
+  height: 36px;
+  border: 1px solid #6e38f7;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #6e38f7;
+  color: #fff;
+}
+
+.pro__get {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+/* CONTACT US */
+
+.contact__us {
+  margin-left: 20px;
+  margin-top: 40px;
+  width: 220px;
+  height: 347px;
+  border: 1px solid #cfd1d6;
+  border-radius: 5px;
+}
+
+.contact__title {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.contact__img {
+  padding-top: 35px;
+  margin-left: 90px;
+  width: 32px;
+  height: 32;
+}
+
+.contact__forever {
+  padding-top: 25px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.contact__users {
+  padding-top: 20px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.contact__gitgub {
+  padding-top: 20px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.contact__start {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 160px;
+  height: 36px;
+  border: 1px solid #6e38f7;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+.contact__get {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #6e38f7;
+}
+
+/* PLANS */
+
+.team {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.plans {
+  padding-top: 110px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; */
+}
+
+.plans__h1 {
+  padding-bottom: 20px;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 43px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.plans__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #95a1bb;
+}
+
+/* TEAM */
+
+.team {
+  padding-top: 40px;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.team__individual {
+  margin-left: 20px;
+  margin-top: 40px;
+  width: 300px;
+  height: 377px;
+  border: 1px solid #cfd1d6;
+  border-radius: 5px;
+}
+
+.team__start {
+  margin-top: 20px;
+  margin: 35px 80px;
+  width: 160px;
+  height: 36px;
+  border: 1px solid #6e38f7;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+.team__get {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #6e38f7;
+}
+
+.free__team {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 43px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #95a1bb;
+}
+
+.free__team {
+  padding-top: 30px;
+  font-size: 22px;
+  text-align: center;
+}
+
+/* POPULAR */
+
+.popular {
+  margin-top: 40px;
+  width: 300px;
+  height: 377px;
+  border-radius: 5px;
+  border: 1px solid #6e38f7;
+}
+
+.popu__title {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.popu__sup-sub {
+  padding-top: 35px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.popu__forever {
+  padding-top: 25px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.popu__users {
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.popu__gitgub {
+  padding-top: 20px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.popu__start {
+  margin-top: 30px;
+  margin: 35px 75px;
+  width: 160px;
+  height: 36px;
+  border: 1px solid #6e38f7;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #6e38f7;
+  color: #fff;
+}
+
+.popu__get {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+/* USER */
+
+.users {
+  margin-top: 40px;
+  width: 220px;
+  height: 347px;
+  border: 1px solid #cfd1d6;
+  border-radius: 5px;
+
+  margin-top: 40px;
+  width: 300px;
+  height: 377px;
+  border-radius: 5px;
+}
+
+.user__title {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.user__text {
+  padding-top: 35px;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 43px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.user__forever {
+  padding-top: 25px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.user__users {
+  padding-top: 20px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.user__gitgub {
+  padding-top: 20px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.user__start {
+  margin-top: 30px;
+  margin: 35px 70px;
+  width: 160px;
+  height: 36px;
+  border: 1px solid #6e38f7;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+.user__get {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #6e38f7;
+}
+
+/* INDIVIDUAL__TEAM */
+
+.individual__h1 {
+  padding-top: 110px;
+  padding-bottom: 20px;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 43px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.individual__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #95a1bb;
+}
+
+.get__by {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.get {
+  margin-left: 20px;
+  margin-top: 40px;
+  width: 460px;
+  height: 377px;
+  border: 1px solid #cfd1d6;
+  border-radius: 5px;
+}
+
+.get__title {
+  padding-top: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.get__team {
+  padding-top: 30px;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 43px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #95a1bb;
+}
+
+.get__forever {
+  padding-top: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.get__users {
+  padding-top: 20px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.get__gitgub {
+  padding-top: 20px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.get__start {
+  margin-top: 20px;
+  margin: 35px 160px;
+  width: 160px;
+  height: 36px;
+  border: 1px solid #6e38f7;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+.get__get {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #6e38f7;
+}
+
+.by__team {
+  padding-top: 30px;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 43px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.by__start {
+  margin-top: 20px;
+  margin: 35px 160px;
+  width: 160px;
+  height: 36px;
+  border: 1px solid #6e38f7;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #6e38f7;
+}
+
+.by__get {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #fff;
+}
+
+/* TABLE */
+
+.table__h1 {
+  padding-bottom: 20px;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 43px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #363940;
+}
+
+.table__text {
+  padding-bottom: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #95a1bb;
+}
+
+/* TABLE */
+
+table,
+tr,
+td,
+th {
+  border: 1px solid #e1e5ee;
+  /* border: 1px solid #090b0f; */
+  border-collapse: collapse;
+}
+
+.line {
+  margin-bottom: 100px;
+}
+
+.table__liner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.th {
+  margin-top: 40px;
+  margin-left: 230px;
+  width: 241px;
+  height: 52px;
+  color: #363940;
+}
+
+.t-h {
+  padding: 20px 15px;
+  margin-top: 40px;
+  margin-left: 230px;
+  width: 241px;
+  height: 52px;
+  color: #95a1bb;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.td {
+  padding: 20px 15px;
+}
